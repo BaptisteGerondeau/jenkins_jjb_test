@@ -5,4 +5,4 @@
          block-downstream: false
          builders:
                  - shell: |
-                         echo "Hello, World : $(date)" > /var/lib/jenkins/HelloWorld.txt
+                         echo "Hello, New World : $(date)" > /var/lib/jenkins/HelloWorld.txt
