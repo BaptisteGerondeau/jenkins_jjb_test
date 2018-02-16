@@ -1,0 +1,8 @@
+ - job:
+         name: test-job-one
+         description: "This is a simple test job for JJB"
+         project-type: freestyle
+         block-downstream: false
+         builders:
+                 - shell: |
+                         echo "Hello, World : $(date)" > /var/lib/jenkins/HelloWorld.txt
